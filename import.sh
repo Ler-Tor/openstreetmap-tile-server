@@ -31,5 +31,5 @@ sudo docker run \
  -e NAME_MML=osm-bright.osm2pgsql.mml  \
  -v ./osm-bright:/data/style/ \
  -v osm-data:/data/database/ \ 
- tile_image \
+ -d tile_image \
 import
