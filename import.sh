@@ -14,7 +14,7 @@ cd ..
 
 wget https://ftp.fau.de/pub/openstreetmapdata.com-archive/2022-01-30/land-polygons-split-3857.zip
 unzip land-polygons-split-3857.zip
-cd land-polygons-split-3857.zip
+cd land-polygons-split-3857
 grep -L -r 'land-polygons' | xargs -I '{}' mv {} ..
 cd ..
 
